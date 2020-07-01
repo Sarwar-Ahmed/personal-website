@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    padding: 0 10%;   
+    overflow: hidden;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgrey;
+}
+img{
+    width: 100%;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding: 5%;
+}
+.one-third-width{
+    width: 30%;
+    float: left;
+    padding: 1%;
+}
+#top-banner{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    overflow: hidden;
+    padding: 5%;
+}
+.name-highlight{
+    color: #EC4C7A;
+}
+.link-button{
+    background-color: #EC4B75;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 5%;
+}
+#latest-work{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    justify-content: center;
+    text-align: center;
+    padding: 10%;
+}
+footer{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: center;
+}
+#feedback{
+    justify-content: center;
+    margin: 0 25%;
+}
+.client{
+    padding: 1%;
+    
+}
+.client-title{
+    font-size: 14px;
+}
+.client-feedback{
+    font: normal;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 550;
+    text-align: center;
+    margin-bottom: 2%;
+}
+#contact{
+    background-color: #EC4C7A;
+    margin: 10% 20%;
+    padding: 3%;
+    border-radius: 10px;
+}
+#contact p{
+    color: #ffffff;
+}
+.contact-email{
+    font-size: 25px;
+    font-weight: bold;
+}
+.profile{
+    margin-top: 2%;
+}
+.profile-link{
+    text-decoration: none;
+    padding: 1%;
+    color: #F0F0F0;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.profile-link:hover{
+    background-color: #45567D;
+    border-radius: 10px;
+}
+.fb{
+    background-color: #139CF7;
+}
+.git{
+    background-color: #24292E;
+}
+.twt{
+    background-color: #32CCFE;
+}
+.lin{
+    background-color: #0077B5;
+}
+.eml{
+    background-color: #C13A2B;
+}
+@media (max-width:767px){
+    .half-width{
+        width: 100%;
+    }
+    .one-third-width{
+        width: 100%;
+    }
+}
